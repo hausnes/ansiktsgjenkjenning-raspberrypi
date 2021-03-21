@@ -77,7 +77,7 @@ Sjå om 'kamera ser deg'. Det skal stå "Unknown", om du ikkje er Obama. Finn ei
 11. Treningstid! 
 >   The final step is to start recognising your own faces. Create a directory and, in it, place some good-quality passport-style photos of yourself or those you want to recognise. You can then edit the `facerec_on_raspberry_pi.py` script to use those files instead. You’ve now got a robust prototype of face recognition. This is just the beginning. These libraries can also identify ‘generic’ faces, meaning it can detect whether a person is there or not, and identify features such as the eyes, nose, and mouth. There’s a world of possibilities available, starting with these simple scripts. Have fun.
 
-## Problemsøking:
+## Problemsøking og tips:
 - Dersom du ikkje har eksempelfilene kan desse lastast ned direkte frå:
 ```
 cd
@@ -85,3 +85,4 @@ git clone --single-branch https://github.com/
 ageitgey/face_recognition.git
 ```
 - Sjølve biblioteket kan du laste ned og lese meir om her hjå @ageitgey sitt repository [face_regocnition](https://github.com/ageitgey/face_recognition)
+- Glad i planter? [Monitor Plant Growth](https://magpi.raspberrypi.org/articles/monitor-plant-growth-ai-opencv) frå MagPi.
