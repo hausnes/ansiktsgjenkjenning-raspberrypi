@@ -12,7 +12,7 @@ sudo apt -y update
 ```
 raspistill -o testbilete.jpg
 ```
-4. Installer avhengingheter ('dependencies'):
+4. Installer avhengigheiter ('dependencies'):
 ```
 sudo apt install build-essential \
     cmake \
@@ -49,7 +49,7 @@ Finn `CONF_SWAPSIZE` og endre verdien frå 100 til 1024. Lagre, gå ut og køyr:
 ```
 sudo /etc/init.d/dphys-swapfile restart
 ```
-7. Bygg og installer dlib (NB: Ca. 30 minutt på Raspberry PI 4):
+7. Bygg og installer **dlib** (NB: Ca. 30 minutt på Raspberry PI 4):
 ```
 cd
 git clone -b 'v19.6' --single-branch https://github.com/davisking/dlib.git
