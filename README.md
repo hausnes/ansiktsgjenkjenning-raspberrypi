@@ -74,6 +74,7 @@ cd ./face_recognition/examples
 python3 facerec_on_raspberry_pi.py
 ```
 Sjå om 'kamera ser deg'. Det skal stå "Unknown", om du ikkje er Obama. Finn eit bilete av Obama på mobilen og vis dette til kameraet. Det skal no stå 'I see someone named Barack Obama!'
+
 11. Treningstid! 
 >   The final step is to start recognising your own faces. Create a directory and, in it, place some good-quality passport-style photos of yourself or those you want to recognise. You can then edit the `facerec_on_raspberry_pi.py` script to use those files instead. You’ve now got a robust prototype of face recognition. This is just the beginning. These libraries can also identify ‘generic’ faces, meaning it can detect whether a person is there or not, and identify features such as the eyes, nose, and mouth. There’s a world of possibilities available, starting with these simple scripts. Have fun.
 
